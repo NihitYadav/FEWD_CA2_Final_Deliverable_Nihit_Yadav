@@ -1,0 +1,246 @@
+body{
+    background: url("https://gifimage.net/wp-content/uploads/2017/09/bob-the-builder-gif-4.gif");
+}
+
+.he{
+    display: flex;
+    font-size: 60px;
+    flex-wrap: wrap;
+    background-color: aqua;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 6.25rem;
+    padding: 1rem;
+}
+
+#he2{
+    display: flex;
+    font-size: 30px;
+    background-color: lightsalmon;
+    width: 200px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3.12rem;
+}
+
+#beta{
+    background-color: aqua;
+}
+
+#gama{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#hey{
+    height: 80px;
+    width: 400px;
+    background-color: aquamarine;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh;
+}
+
+#hehe{
+    background-color: aquamarine;
+}
+
+#hey2{
+    font-size: 30px;
+    width: 150px;
+    background-color: lightskyblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8vh;
+}
+
+#hey3{
+    font-size: 30px;
+    width: 100px;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh;
+}
+
+#hey4{
+    height: 45vh;
+    width: 100vh;
+    background-color: antiquewhite;
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 400px; */
+}
+
+#hehe1{
+    background-color: antiquewhite;
+}
+
+#hehe2{
+    background-color: antiquewhite;
+}
+
+#hehe3{
+    background-color: antiquewhite;
+}
+
+#hehe4{
+    background-color: antiquewhite;
+}
+
+#hehe5{
+    background-color: antiquewhite;
+}
+
+.hey1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#hey5{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#hey6{
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.hey7{
+    font-size: 20px;
+    background-color: antiquewhite;
+    margin-left: 50px;
+}
+
+:root{
+    --width: 400px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#game{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+#btn{
+    font-size: 2rem;
+    padding: 0.5rem 2rem;
+    border: 3px solid black;
+    border-radius: 0.3rem;
+    margin: 1rem auto;
+    display: block;
+    background-color: lightgreen;
+}
+
+#btn:active{
+    background-color: red;
+}
+
+.slider{
+    visibility: hidden;
+    height: 20px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+}
+
+#slider1{
+    visibility: visible;
+}
+
+.animate{
+    animation: slide 4s infinite linear;
+}
+
+#alpha{
+    height: 30px;
+    width: 150px;
+}
+
+#alpha2{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+#scoreoutput{
+    background-color: palegreen;
+    width: 300px;
+    height: 100px;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#boxx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 4.5rem;
+}
+
+@keyframes slide{
+    0%{left:0px}
+    50%{left:var(--width)}
+    100%{left:0px}
+}
+#content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    flex-direction: column;
+}
+
+#gamecontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+#border{
+    border-width: .3rem;
+    border-color: black;
+    border-style:groove
+}
+#endcontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    flex-direction: column;
+}
